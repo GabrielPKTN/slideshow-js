@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "Kanao",
+    "imagem": "./img/kanao.jpg"
+  },
+  {
+    "nome": "Kanroji",
+    "imagem": "./img/kanroji.jpg"
+  },
+  {
+    "nome": "Obanai",
+    "imagem": "./img/obanai.jpg"
+  },
+  {
+    "nome": "Shinazugawa",
+    "imagem": "./img/shinazugawa.jpg"
+  },
+  {
+    "nome": "Shinobu",
+    "imagem": "./img/shinobu.jpg"
+  },
+  {
+    "nome": "Tokito",
+    "imagem": "./img/tokito.jpg"
+  },
+  {
+    "nome": "Tomioka",
+    "imagem": "./img/tomioka.jpg"
+  },
+  {
+    "nome": "Trio Demon Slayer",
+    "imagem": "./img/trio-demon-slayer.jpg"
+  },
+  {
+    "nome": "Uzui",
+    "imagem": "./img/uzui.jpg"
+  }
+]
