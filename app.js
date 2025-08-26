@@ -26,7 +26,30 @@ function criarPersonagens(jsonPersonagens) {
 
 carregarImagens()
 
+let personagens = document.querySelectorAll(".item")
+
+const buttonPrevious = document.getElementById("previous")
+const buttonNext = document.getElementById("next")
+
+function previous() {
+
+    const containerSlider = document.getElementById("container-items")
+
+    const lastPersonagem = personagens[personagens.length - 1]
+    containerSlider.insertBefore(lastPersonagem, personagens[0])
+    personagens = document.querySelectorAll(".item")
+
+}
+
+function next() {
+
+    const containerSlider = document.getElementById("container-items")
+
+    containerSlider.appendChild(personagens[0])
+    personagens = document.querySelectorAll(".item")
+
+}
 
 
-
-
+buttonNext.addEventListener('click', next)
+buttonPrevious.addEventListener('click', previous)

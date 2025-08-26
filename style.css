@@ -54,6 +54,7 @@ main {
     min-width: 100%;
     height: 100%;
     border-radius: var(--border-default);
+    transition: ease-in-out 0.3s;
 }
 
 .item img {
@@ -72,7 +73,7 @@ main {
     place-content: center;
     font-size: 30px;
     color: #FFFA;
-    background-color: #0101039c;
+    background-color: transparent;
     transition: ease-in-out 0.3s;
     z-index: 1;
     border-radius: var(--border-default);
@@ -81,7 +82,6 @@ main {
 .action-button:hover {
     cursor: pointer;
     color: white;
-    background-color: #010103c8;
 }
 
 #previous {
